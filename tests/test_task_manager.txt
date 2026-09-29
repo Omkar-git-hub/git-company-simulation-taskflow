@@ -113,3 +113,16 @@ Due date should be displayed with the task.
 
 Result:
 PASS
+
+
+Test 11: Empty Due Date
+-----------------------
+
+Input:
+Due Date: EMPTY
+
+Expected:
+An empty due date should be rejected.
+
+Result:
+PASS
