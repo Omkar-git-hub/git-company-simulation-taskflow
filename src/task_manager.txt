@@ -1,0 +1,59 @@
+TASKFLOW TASK MANAGER
+=====================
+
+Task Structure
+--------------
+
+Each task contains:
+
+- Task ID
+- Task Title
+- Priority
+- Status
+
+
+Priority Levels
+---------------
+
+LOW
+MEDIUM
+HIGH
+
+
+Task Status
+-----------
+
+TODO
+IN_PROGRESS
+COMPLETED
+
+
+Example Tasks
+-------------
+
+
+Task ID: 1
+Title: Complete Git Training
+Priority: HIGH
+Status: IN_PROGRESS
+
+
+Task ID: 2
+Title: Create Project Documentation
+Priority: MEDIUM
+Status: TODO
+
+
+Task ID: 3
+Title: Review Pull Request
+Priority: LOW
+Status: TODO
+
+
+Priority Rules
+--------------
+
+1. Every task must have one priority.
+2. Valid priorities are LOW, MEDIUM, and HIGH.
+3. HIGH priority tasks should be handled before LOW priority tasks when required.
+4. Priority can be changed when task requirements change.
