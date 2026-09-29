@@ -1,0 +1,57 @@
+TASKFLOW TEST CASES
+===================
+
+
+Test 1: TODO Status
+-------------------
+
+Task:
+Title: Create documentation
+Status: TODO
+
+Expected:
+Status should be TODO.
+
+Result:
+PASS
+
+
+Test 2: IN_PROGRESS Status
+--------------------------
+
+Task:
+Title: Complete Git training
+Status: IN_PROGRESS
+
+Expected:
+Status should be IN_PROGRESS.
+
+Result:
+PASS
+
+
+Test 3: COMPLETED Status
+------------------------
+
+Task:
+Title: Review Pull Request
+Status: COMPLETED
+
+Expected:
+Status should be COMPLETED.
+
+Result:
+PASS
+
+
+Test 4: New Task Default Status
+--------------------------------
+
+Task:
+Title: New Task
+
+Expected:
+New task should start with TODO status.
+
+Result:
+PASS
