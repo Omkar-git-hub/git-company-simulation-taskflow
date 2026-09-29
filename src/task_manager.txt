@@ -1,0 +1,46 @@
+TASKFLOW TASK MANAGER
+=====================
+
+Task Structure
+--------------
+
+Each task contains:
+
+- Task ID
+- Task Title
+- Status
+
+
+Task Status
+-----------
+
+TODO
+IN_PROGRESS
+COMPLETED
+
+
+Status Rules
+------------
+
+1. Every task must have one status.
+2. A new task starts with TODO status.
+3. A task can move from TODO to IN_PROGRESS.
+4. A completed task has COMPLETED status.
+
+
+Example Tasks
+-------------
+
+Task ID: 1
+Title: Complete Git Training
+Status: IN_PROGRESS
+
+
+Task ID: 2
+Title: Create Project Documentation
+Status: TODO
+
+
+Task ID: 3
+Title: Review Pull Request
+Status: COMPLETED
