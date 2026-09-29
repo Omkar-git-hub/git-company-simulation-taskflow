@@ -73,3 +73,43 @@ Status should be COMPLETED.
 
 Result:
 PASS
+
+
+Test 8: Valid Due Date
+----------------------
+
+Input:
+2026-10-15
+
+Expected:
+Due date should be accepted.
+
+Result:
+PASS
+
+
+Test 9: Due Date Format
+-----------------------
+
+Input:
+15-10-2026
+
+Expected:
+Invalid date format should be rejected.
+
+Result:
+PASS
+
+
+Test 10: Due Date Display
+-------------------------
+
+Task:
+Title: Submit project report
+Due Date: 2026-10-15
+
+Expected:
+Due date should be displayed with the task.
+
+Result:
+PASS
