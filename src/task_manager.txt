@@ -10,6 +10,7 @@ Each task contains:
 - Task Title
 - Priority
 - Status
+- Due Date
 
 
 Priority Levels
@@ -26,6 +27,18 @@ Task Status
 TODO
 IN_PROGRESS
 COMPLETED
+
+
+Due Date
+--------
+
+Due dates use the following format:
+
+YYYY-MM-DD
+
+Example:
+
+2026-10-15
 
 
 Priority Rules
@@ -45,6 +58,14 @@ Status Rules
 4. A completed task has COMPLETED status.
 
 
+Due Date Rules
+--------------
+
+1. A task can have a due date.
+2. Due dates must use YYYY-MM-DD format.
+3. The due date should be displayed with the task.
+
+
 Invalid Priority
 ----------------
 
@@ -58,10 +79,25 @@ MEDIUM
 HIGH
 
 
-Example Task
-------------
+Example Tasks
+-------------
 
 Task ID: 1
 Title: Complete Git Training
 Priority: HIGH
 Status: IN_PROGRESS
+Due Date: 2026-10-10
+
+
+Task ID: 2
+Title: Create Project Documentation
+Priority: MEDIUM
+Status: TODO
+Due Date: 2026-10-15
+
+
+Task ID: 3
+Title: Review Pull Request
+Priority: LOW
+Status: COMPLETED
+Due Date: 2026-10-20
