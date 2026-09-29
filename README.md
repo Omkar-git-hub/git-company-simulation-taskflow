@@ -30,9 +30,10 @@ TaskFlow/
 
 ## Current Features
 
-* Basic task representation
-* Task status
-* Task priority
+- Basic task representation
+- Task status
+- Task priority
+- Task due dates
 
 ## Development Workflow
 
