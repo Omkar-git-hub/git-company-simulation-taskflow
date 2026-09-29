@@ -8,7 +8,16 @@ Each task contains:
 
 - Task ID
 - Task Title
+- Priority
 - Status
+
+
+Priority Levels
+---------------
+
+LOW
+MEDIUM
+HIGH
 
 
 Task Status
@@ -17,6 +26,14 @@ Task Status
 TODO
 IN_PROGRESS
 COMPLETED
+
+
+Priority Rules
+--------------
+
+1. Every task must have one priority.
+2. Valid priorities are LOW, MEDIUM, and HIGH.
+3. HIGH priority tasks should be handled before LOW priority tasks when required.
 
 
 Status Rules
@@ -28,19 +45,23 @@ Status Rules
 4. A completed task has COMPLETED status.
 
 
-Example Tasks
--------------
+Invalid Priority
+----------------
+
+If an invalid priority such as URGENT is provided,
+the priority should be rejected.
+
+Valid priorities are:
+
+LOW
+MEDIUM
+HIGH
+
+
+Example Task
+------------
 
 Task ID: 1
 Title: Complete Git Training
+Priority: HIGH
 Status: IN_PROGRESS
-
-
-Task ID: 2
-Title: Create Project Documentation
-Status: TODO
-
-
-Task ID: 3
-Title: Review Pull Request
-Status: COMPLETED

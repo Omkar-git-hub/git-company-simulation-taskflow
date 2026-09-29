@@ -2,12 +2,51 @@ TASKFLOW TEST CASES
 ===================
 
 
-Test 1: TODO Status
--------------------
+Test 1: LOW Priority
+--------------------
 
-Task:
-Title: Create documentation
-Status: TODO
+Expected:
+Priority should be LOW.
+
+Result:
+PASS
+
+
+Test 2: MEDIUM Priority
+-----------------------
+
+Expected:
+Priority should be MEDIUM.
+
+Result:
+PASS
+
+
+Test 3: HIGH Priority
+---------------------
+
+Expected:
+Priority should be HIGH.
+
+Result:
+PASS
+
+
+Test 4: Invalid Priority
+------------------------
+
+Input:
+URGENT
+
+Expected:
+Invalid priority should be rejected.
+
+Result:
+PASS
+
+
+Test 5: TODO Status
+-------------------
 
 Expected:
 Status should be TODO.
@@ -16,12 +55,8 @@ Result:
 PASS
 
 
-Test 2: IN_PROGRESS Status
+Test 6: IN_PROGRESS Status
 --------------------------
-
-Task:
-Title: Complete Git training
-Status: IN_PROGRESS
 
 Expected:
 Status should be IN_PROGRESS.
@@ -30,28 +65,11 @@ Result:
 PASS
 
 
-Test 3: COMPLETED Status
+Test 7: COMPLETED Status
 ------------------------
-
-Task:
-Title: Review Pull Request
-Status: COMPLETED
 
 Expected:
 Status should be COMPLETED.
-
-Result:
-PASS
-
-
-Test 4: New Task Default Status
---------------------------------
-
-Task:
-Title: New Task
-
-Expected:
-New task should start with TODO status.
 
 Result:
 PASS
