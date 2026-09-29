@@ -4,29 +4,35 @@ TaskFlow is a simple task management project created for practicing professional
 
 ## Project Goals
 
-- Create and manage tasks
-- Track task status
-- Assign task priorities
-- Practice Git branching
-- Practice commits and pull requests
-- Simulate code reviews
-- Simulate multiple developers working on the same project
+* Create and manage tasks
+* Track task status
+* Assign task priorities
+* Practice Git branching
+* Practice commits and pull requests
+* Simulate code reviews
+* Simulate multiple developers working on the same project
 
 ## Project Structure
 
 TaskFlow/
+
 ├── src/
+
 │   └── task_manager.txt
+
 ├── tests/
+
 │   └── test_task_manager.txt
+
 ├── README.md
+
 └── .gitignore
 
 ## Current Features
 
-- Basic task representation
-- Task status
-- Task priority
+* Basic task representation
+* Task status
+* Task priority
 
 ## Development Workflow
 
@@ -44,3 +50,7 @@ TaskFlow/
 ## Project Status
 
 Learning and development project.
+
+## Current Version
+
+v1.0.0
