@@ -1,0 +1,58 @@
+TASKFLOW TEST CASES
+===================
+
+
+Test 1: LOW Priority
+--------------------
+
+Task:
+Title: Update documentation
+Priority: LOW
+
+Expected:
+Priority should be LOW.
+
+Result:
+PASS
+
+
+Test 2: MEDIUM Priority
+-----------------------
+
+Task:
+Title: Review project structure
+Priority: MEDIUM
+
+Expected:
+Priority should be MEDIUM.
+
+Result:
+PASS
+
+
+Test 3: HIGH Priority
+---------------------
+
+Task:
+Title: Fix critical issue
+Priority: HIGH
+
+Expected:
+Priority should be HIGH.
+
+Result:
+PASS
+
+
+Test 4: Task Status
+-------------------
+
+Task:
+Title: Complete Git training
+Status: IN_PROGRESS
+
+Expected:
+Task status should be IN_PROGRESS.
+
+Result:
+PASS
