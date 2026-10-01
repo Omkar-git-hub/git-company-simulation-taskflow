@@ -1,57 +1,57 @@
-# TaskFlow
+# Git & GitHub Learning Lab
 
-TaskFlow is a simple task management project created for practicing professional Git and GitHub workflows.
+A hands-on repository for learning **Git and GitHub from beginner to advanced level**.
 
-## Project Goals
+## Purpose
 
-* Create and manage tasks
-* Track task status
-* Assign task priorities
-* Practice Git branching
-* Practice commits and pull requests
-* Simulate code reviews
-* Simulate multiple developers working on the same project
+This repository is used to:
 
-## Project Structure
+* Learn Git and GitHub concepts
+* Practice Git commands
+* Understand branching, merging, rebase, conflicts, remotes, and recovery
+* Practice GitHub workflows like Issues, Pull Requests, reviews, and releases
+* Learn how Git is used in real development teams
 
-TaskFlow/
+## Learning Path
 
-├── src/
+The repository is organized into phases covering:
 
-│   └── task_manager.txt
+* Git Fundamentals
+* Commits & Branching
+* Merge & Rebase
+* Remote Repositories
+* Undo & Recovery
+* Advanced Git
+* GitHub Collaboration
+* Professional Workflows
+* Git Internals
+* Company Workflow Simulation
 
-├── tests/
+## Related Project
 
-│   └── test_task_manager.txt
+### TaskFlow
 
-├── README.md
+**TaskFlow** is a sample project created to practice a real-world Git/GitHub workflow.
 
-└── .gitignore
+🔗 [TaskFlow — Git Workflow Lab](https://github.com/Omkar-git-hub/taskflow-git-workflow-lab?utm_source=chatgpt.com)
 
-## Current Features
+It includes:
 
-- Basic task representation
-- Task status
-- Task priority
-- Task due dates
+* Feature branches
+* Multiple commits
+* Pull Requests
+* Code review
+* Conflict resolution
+* Releases and tags
+* Branch cleanup
 
-## Development Workflow
+The completed project is also included in this repository:
 
-1. Create an Issue
-2. Create a feature branch
-3. Implement the feature
-4. Add tests
-5. Commit changes
-6. Push the branch
-7. Create a Pull Request
-8. Review the Pull Request
-9. Make requested changes
-10. Merge into main
+```text
+Phase_12_Company_Simulation/
+└── Company_Simulation_Project.zip
+```
 
-## Project Status
+## Goal
 
-Learning and development project.
-
-## Current Version
-
-v1.0.0
+Learn Git and GitHub by **actually practicing workflows**, not just memorizing commands.
