@@ -1,57 +1,61 @@
-# Git & GitHub Learning Lab
+# TaskFlow — Git Workflow Lab
 
-A hands-on repository for learning **Git and GitHub from beginner to advanced level**.
+A small sample project created to practice **Git and GitHub workflows in a real-world development style**.
 
 ## Purpose
 
-This repository is used to:
-
-* Learn Git and GitHub concepts
-* Practice Git commands
-* Understand branching, merging, rebase, conflicts, remotes, and recovery
-* Practice GitHub workflows like Issues, Pull Requests, reviews, and releases
-* Learn how Git is used in real development teams
-
-## Learning Path
-
-The repository is organized into phases covering:
-
-* Git Fundamentals
-* Commits & Branching
-* Merge & Rebase
-* Remote Repositories
-* Undo & Recovery
-* Advanced Git
-* GitHub Collaboration
-* Professional Workflows
-* Git Internals
-* Company Workflow Simulation
-
-## Related Project
-
-### TaskFlow
-
-**TaskFlow** is a sample project created to practice a real-world Git/GitHub workflow.
-
-🔗 [TaskFlow — Git Workflow Lab](https://github.com/Omkar-git-hub/taskflow-git-workflow-lab?utm_source=chatgpt.com)
-
-It includes:
+This project is used to practice:
 
 * Feature branches
-* Multiple commits
+* Commits
 * Pull Requests
-* Code review
-* Conflict resolution
+* Code reviews
+* Merge conflicts
 * Releases and tags
 * Branch cleanup
+* GitHub collaboration workflows
 
-The completed project is also included in this repository:
+## Features
+
+TaskFlow currently supports:
+
+* Task priority
+* Task status
+* Task due dates
+* Due date validation
+* Basic test cases
+
+## Git Workflow
+
+The project follows:
 
 ```text
-Phase_12_Company_Simulation/
-└── Company_Simulation_Project.zip
+Issue
+ ↓
+Feature Branch
+ ↓
+Commits
+ ↓
+Pull Request
+ ↓
+Code Review
+ ↓
+Changes
+ ↓
+Merge
+ ↓
+Release
 ```
 
-## Goal
+## Versions
 
-Learn Git and GitHub by **actually practicing workflows**, not just memorizing commands.
+* `v1.0.0` — Initial TaskFlow release
+* `v1.1.0` — Added task due date support
+
+## Related Repository
+
+🔗 [Git & GitHub Learning Lab](https://github.com/Omkar-git-hub/git-github-learning-lab?utm_source=chatgpt.com)
+
+## Author
+
+**Omkar Nikam**
